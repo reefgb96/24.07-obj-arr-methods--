@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+* {
+  font-family: "Varela Round", sans-serif;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  font-size: 2.5rem;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  justify-items: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.container > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: rgb(222, 187, 99);
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.container > .index {
+  background-color: peru;
+}
